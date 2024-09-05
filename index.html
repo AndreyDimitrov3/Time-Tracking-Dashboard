@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"> 
+  <link rel="stylesheet" href="Tracking.css">
+  <title>Time Tracking Dashboard</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main class="main">
+    <div class="customer">
+      <div class="avatar-name">
+        <img src="images/image-jeremy.png" alt="Jeremy" class="avatar">
+        <div class="reportJimmyHolder">
+          <p class="report">Report for</p>
+          <h1 class="jeremy">Jeremy Robson</h1>
+        </div>
+      </div>
+
+      <div class="button-holder">
+        <button class="button" id="daily">Daily</button>
+        <button class="button" id="weekly">Weekly</button>
+        <button class="button" id="monthly">Monthly</button>
+      </div>
+    </div>
+
+    <section class="section">
+      <article class="article">
+        
+        <div class="card" data-title="Work">
+          <div class="image-holder work">
+            <img src="images/icon-work.svg" alt="Work Image" class="image">
+          </div>
+          <div class="inner-card">
+            <div class="heading-ellipsis">
+              <p class="heading-card">Work</p>
+              <img src="images/icon-ellipsis.svg" alt="Ellipsis" class="ellipsis">
+            </div>
+            <div class="statsHolder">
+              <h1 class="current">0hrs</h1>
+              <p class="previous">Last Week - 0hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-title="Play">
+          <div class="image-holder play">
+            <img src="images/icon-play.svg" alt="Play Image" class="image">
+          </div>
+          <div class="inner-card">
+            <div class="heading-ellipsis">
+              <p class="heading-card">Play</p>
+              <img src="images/icon-ellipsis.svg" alt="Ellipsis" class="ellipsis">
+            </div>
+            <div class="statsHolder">
+              <h1 class="current">0hrs</h1>
+              <p class="previous">Last Week - 0hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-title="Study">
+          <div class="image-holder study">
+            <img src="images/icon-study.svg" alt="Study Image" class="image">
+          </div>
+          <div class="inner-card">
+            <div class="heading-ellipsis">
+              <p class="heading-card">Study</p>
+              <img src="images/icon-ellipsis.svg" alt="Ellipsis" class="ellipsis">
+            </div>
+            <div class="statsHolder">
+              <h1 class="current">0hrs</h1>
+              <p class="previous">Last Week - 0hrs</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="article">
+        <div class="card" data-title="Exercise">
+          <div class="image-holder exercise">
+            <img src="images/icon-exercise.svg" alt="Exercise Image" class="image">
+          </div>
+          <div class="inner-card">
+            <div class="heading-ellipsis">
+              <p class="heading-card">Exercise</p>
+              <img src="images/icon-ellipsis.svg" alt="Ellipsis" class="ellipsis">
+            </div>
+            <div class="statsHolder">
+              <h1 class="current">0hrs</h1>
+              <p class="previous">Last Week - 0hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-title="Social">
+          <div class="image-holder social">
+            <img src="images/icon-social.svg" alt="Social Image" class="image">
+          </div>
+          <div class="inner-card">
+            <div class="heading-ellipsis">
+              <p class="heading-card">Social</p>
+              <img src="images/icon-ellipsis.svg" alt="Ellipsis" class="ellipsis">
+            </div>
+            <div class="statsHolder">
+              <h1 class="current">0hrs</h1>
+              <p class="previous">Last Week - 0hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" data-title="Self Care">
+          <div class="image-holder self-care">
+            <img src="images/icon-self-care.svg" alt="Self Care Image" class="image">
+          </div>
+          <div class="inner-card">
+            <div class="heading-ellipsis">
+              <p class="heading-card">Self Care</p>
+              <img src="images/icon-ellipsis.svg" alt="Ellipsis" class="ellipsis">
+            </div>
+            <div class="statsHolder">
+              <h1 class="current">0hrs</h1>
+              <p class="previous">Last Week - 0hrs</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="Tracking.js"></script>
+</body>
+</html>
